@@ -21,6 +21,7 @@ body {
   height: 2em;
   width: 2em;
   border: solid;
+  border: solid red;
 }
 
 .spike {
@@ -51,6 +52,46 @@ body {
   width: 1.2em;
   margin-top: 12px;
   margin-right: 2px;
+}
+
+.spiglys {
+  position: absolute;
+  bottom: 0;
+  left: 15em;
+  right: 5em;
+  margin-bottom: -9px;
+  width: 2em;
+  height: 2em;
+  border: solid green;
+}
+.spiglys hr {
+  position: relative;
+  height: 3px;
+  width: 2em;
+  background-color: black;
+  border: none;
+}
+.spiglys .left {
+  margin-top: 2em;
+  margin-left: 9px;
+  transform: rotate(75deg);
+}
+.spiglys .right {
+  margin-top: -10px;
+  margin-right: 0px;
+  transform: rotate(-75deg);
+}
+.spiglys .bottom {
+  width: 1.2em;
+  margin-top: 12px;
+  margin-right: 2px;
+}
+
+.death {
+  text-align: center;
+  position: relative;
+  top: 10em;
+  color: #fff;
 }
 
 .stop {
