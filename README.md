@@ -1,2 +1,2 @@
 # NausedaDash
-GD but nauseda
+A terrible Geometry Dash Recreation in vannila javascript
